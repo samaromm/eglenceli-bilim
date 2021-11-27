@@ -1,0 +1,41 @@
+.planet-1 {
+  background-image: url('../../../assets/img/game-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.planet-1 .char {
+  position: absolute;
+  right: 15rem;
+  bottom: 0;
+  width: 14rem;
+  z-index: 1;
+}
+.planet-1 .color-overlay {
+  height: inherit;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+}
+.planet-1 .char-overlay {
+  background-color: rgba(0, 0, 0, 0.15);
+  z-index: 2;
+}
+.planet-1 .btn {
+  display: none;
+  z-index: 3;
+  position: absolute;
+  bottom: 8rem;
+  font-size: 2rem;
+  right: 30rem;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  padding: 1rem 1.5rem;
+  transition: font-size 0.5s ease;
+}
+.planet-1 .btn:first-of-type{
+  display: block;
+}
+.planet-1 .btn:hover {
+  font-size: 3rem;
+}
