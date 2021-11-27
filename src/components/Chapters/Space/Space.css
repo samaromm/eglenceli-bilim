@@ -29,13 +29,15 @@
   bottom: 8rem;
   font-size: 2rem;
   right: 30rem;
-  background-color: rgba(0, 0, 0, 0.4) !important;
+  background-color: transparent !important;
   padding: 1rem 1.5rem;
   transition: font-size 0.5s ease;
+  border:none !important;
+  box-shadow: none !important;
 }
 .planet-1 .btn:first-of-type{
   display: block;
 }
-.planet-1 .btn:hover {
+/*.planet-1 .btn:hover {
   font-size: 3rem;
-}
+}*/

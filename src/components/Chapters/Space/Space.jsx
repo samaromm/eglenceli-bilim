@@ -1,5 +1,4 @@
 import React from 'react'
-import { useHistory } from "react-router-dom";
 import Sound from 'react-sound'
 import { Btns } from '../../../assets/data/SpaceBtns'
 import { Audios } from '../../../assets/data/SpaceAudios'
@@ -8,12 +7,11 @@ import './Space.css'
 import 'animate.css'
 
 
-class Forest extends React.Component {
+class Space extends React.Component {
   constructor () {
     super()
     this.state = { audio1: 'STOPPED', audio2: 'STOPPED', audio3: 'STOPPED' }
   }
-  history = useHistory();
 
   handleShowBtn = id => {
     let btn = document.getElementById(id)
@@ -34,7 +32,7 @@ class Forest extends React.Component {
     if(id==="audio4"){
       let main = document.querySelector(".planet-1")
       main.classList.add("animate__bounceOutLeft")
-      history.push("/experiment")
+      this.props.navigation.navigate("/experiment")
     }
   }
 
@@ -64,7 +62,7 @@ class Forest extends React.Component {
             <button
               key={btn.id}
               id={btn.id}
-              className='btn btn-primary animate__animated animate__lightSpeedInLeft'
+              className='btn animate__animated animate__lightSpeedInLeft neonText'
               onClick={() => this.handlePlayAudio(btn.open)}
             >
               {btn.text}
@@ -75,4 +73,4 @@ class Forest extends React.Component {
     )
   }
 }
-export default Forest
+export default Space
