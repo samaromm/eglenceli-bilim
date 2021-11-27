@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Home from './containers/HomePage'
+import Chapters from './containers/ChaptersMain'
+import Forest from './containers/ForestChapter'
+import MathGame from './containers/MathGamePage'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router basename='/'>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/chapters' element={<Chapters />} />
+        <Route path='/forest' element={<Forest />} />
+        <Route path='/math-game' element={<MathGame />} />
+      </Routes>
+    </Router>
+  )
 }
 
-export default App;
+export default App
