@@ -5,6 +5,9 @@ import Home from './containers/HomePage'
 import Chapters from './containers/ChaptersMain'
 import Forest from './containers/ForestChapter'
 import MathGame from './containers/MathGamePage'
+import EndGame from './containers/EndGamePage'
+import "@material-tailwind/react/tailwind.css";
+
 
 const App = () => {
   return (
@@ -14,6 +17,7 @@ const App = () => {
         <Route path='/chapters' element={<Chapters />} />
         <Route path='/forest' element={<Forest />} />
         <Route path='/math-game' element={<MathGame />} />
+        <Route path='/end-game' element={<EndGame />} />
       </Routes>
     </Router>
   )
