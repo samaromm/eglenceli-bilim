@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/eglenceli-bilim/static/css/main.1547336f.chunk.css",
-    "main.js": "/eglenceli-bilim/static/js/main.85016a7d.chunk.js",
-    "main.js.map": "/eglenceli-bilim/static/js/main.85016a7d.chunk.js.map",
+    "main.css": "/eglenceli-bilim/static/css/main.9a9630ae.chunk.css",
+    "main.js": "/eglenceli-bilim/static/js/main.4a8bbfb9.chunk.js",
+    "main.js.map": "/eglenceli-bilim/static/js/main.4a8bbfb9.chunk.js.map",
     "runtime-main.js": "/eglenceli-bilim/static/js/runtime-main.6b46b768.js",
     "runtime-main.js.map": "/eglenceli-bilim/static/js/runtime-main.6b46b768.js.map",
     "static/css/2.e51dd900.chunk.css": "/eglenceli-bilim/static/css/2.e51dd900.chunk.css",
-    "static/js/2.0b22c0fc.chunk.js": "/eglenceli-bilim/static/js/2.0b22c0fc.chunk.js",
-    "static/js/2.0b22c0fc.chunk.js.map": "/eglenceli-bilim/static/js/2.0b22c0fc.chunk.js.map",
+    "static/js/2.e5712558.chunk.js": "/eglenceli-bilim/static/js/2.e5712558.chunk.js",
+    "static/js/2.e5712558.chunk.js.map": "/eglenceli-bilim/static/js/2.e5712558.chunk.js.map",
     "static/js/3.0f2dcd56.chunk.js": "/eglenceli-bilim/static/js/3.0f2dcd56.chunk.js",
     "static/js/3.0f2dcd56.chunk.js.map": "/eglenceli-bilim/static/js/3.0f2dcd56.chunk.js.map",
     "index.html": "/eglenceli-bilim/index.html",
     "static/css/2.e51dd900.chunk.css.map": "/eglenceli-bilim/static/css/2.e51dd900.chunk.css.map",
-    "static/css/main.1547336f.chunk.css.map": "/eglenceli-bilim/static/css/main.1547336f.chunk.css.map",
-    "static/js/2.0b22c0fc.chunk.js.LICENSE.txt": "/eglenceli-bilim/static/js/2.0b22c0fc.chunk.js.LICENSE.txt",
+    "static/css/main.9a9630ae.chunk.css.map": "/eglenceli-bilim/static/css/main.9a9630ae.chunk.css.map",
+    "static/js/2.e5712558.chunk.js.LICENSE.txt": "/eglenceli-bilim/static/js/2.e5712558.chunk.js.LICENSE.txt",
     "static/media/Luffy.319522eb.png": "/eglenceli-bilim/static/media/Luffy.319522eb.png",
     "static/media/Nami.9ef6a94f.png": "/eglenceli-bilim/static/media/Nami.9ef6a94f.png",
     "static/media/Sanji.0f4edde8.png": "/eglenceli-bilim/static/media/Sanji.0f4edde8.png",
@@ -45,8 +45,8 @@
   "entrypoints": [
     "static/js/runtime-main.6b46b768.js",
     "static/css/2.e51dd900.chunk.css",
-    "static/js/2.0b22c0fc.chunk.js",
-    "static/css/main.1547336f.chunk.css",
-    "static/js/main.85016a7d.chunk.js"
+    "static/js/2.e5712558.chunk.js",
+    "static/css/main.9a9630ae.chunk.css",
+    "static/js/main.4a8bbfb9.chunk.js"
   ]
 }
