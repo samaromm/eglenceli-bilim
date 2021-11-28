@@ -1,6 +1,7 @@
 import React from 'react'
 import Typical from 'react-typical'
 import Char from '../../../assets/img/char.gif'
+import Rocket from '../../../assets/img/rocket.gif'
 import './Space.css'
 
 class Experiment extends React.Component {
@@ -25,14 +26,21 @@ class Experiment extends React.Component {
           </div>
         </div>
         <iframe
-          title="experiment"
-          width='628'
-          height='353'
-          src='https://edpuzzle.com/embed/assignments/61a2297799f67042c9330aeb/watch'
+          title='experiment'
+          width='590'
+          height='475'
+          src='https://edpuzzle.com/embed/media/61a21e2922a84c4280b9c679'
           frameborder='0'
           allowfullscreen
-          className="purpleScroll"
         ></iframe>
+        <div className='loading'>
+          <Typical
+            steps={['Loading', 1000, '...', 500]}
+            loop={Infinity}
+            wrapper='p'
+          />
+          <img src={Rocket} alt='loading' />
+        </div>
       </div>
     )
   }

@@ -15,7 +15,7 @@ export default function RootFunction () {
 class Space extends React.Component {
   constructor () {
     super()
-    this.state = { audio1: 'STOPPED', audio2: 'STOPPED', audio3: 'STOPPED' }
+    this.state = { audio1: 'STOPPED', audio2: 'STOPPED', audio3: 'STOPPED', audio4: 'STOPPED' }
   }
 
   handleShowBtn = id => {
@@ -51,17 +51,6 @@ class Space extends React.Component {
           alt='space-man'
           className='char animate__animated animate__zoomInUp'
         />
-        {Audios.map(audio => {
-          return (
-            <Sound
-              key={audio.id}
-              url={audio.url}
-              playStatus={this.state[audio.id]}
-              onFinishedPlaying={() => this.handleShowBtn(audio.btn)}
-            />
-          )
-        })}
-
         {Btns.map(btn => {
           return (
             <button
@@ -72,6 +61,16 @@ class Space extends React.Component {
             >
               {btn.text}
             </button>
+          )
+        })}
+        {Audios.map(audio => {
+          return (
+            <Sound
+              key={audio.id}
+              url={audio.url}
+              playStatus={this.state[audio.id]}
+              onFinishedPlaying={() => this.handleShowBtn(audio.btn)}
+            />
           )
         })}
       </div>
