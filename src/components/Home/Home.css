@@ -1,0 +1,52 @@
+.homePage {
+  background-image: url('../../../src/assets/img/home.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.homeLogo {
+  display: flex;
+  text-align: right;
+  width: 300px;
+  align-items: right;
+}
+
+.homeH1 {
+  font-size: 59px;
+  color: white;
+  text-align: left;
+  margin-left: 100px;
+  padding-top: 1rem;
+}
+
+.loginForm {
+  align-self: flex-end;
+  margin-right: 9rem;
+  color: white;
+  margin-top: 10px;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.homeButton {
+  color: white;
+  opacity: 100%;
+  border-color: white;
+}
+
+.custom-check-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.login {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  align-items: left;
+  font-size: 25px;
+}

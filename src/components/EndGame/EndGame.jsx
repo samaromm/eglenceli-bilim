@@ -17,7 +17,7 @@ const EndGame = () => {
   return (
     <div className='endGamePage'>
       <h1 class='endGameText fire'>
-        <a href='/chapters'> Next Level </a>
+        <a href='/chapters'> YOUR GIFT </a>
       </h1>
       <Sound url={Cheers} playStatus={play} />
       <Button

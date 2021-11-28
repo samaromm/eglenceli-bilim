@@ -32,9 +32,9 @@
 .a-shadow:hover {
   box-shadow: 0 0 11px white !important;
   color: white;
-
 }
 
 .a-shadow img {
   display: initial;
+  width: 9rem;
 }
