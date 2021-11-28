@@ -1,13 +1,15 @@
 import React from 'react'
 import './Home.css'
 import logo from '../../assets/img/logo.png'
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
+ 
   return (
     <div className='homePage'>
       <h1 className='homeH1'>Fun Science</h1>
 
-      <form className='loginForm'>
+      <form className='loginForm mt-5'>
         <img className='homeLogo' src={logo} alt='logo' />
 
         <h3 className='login'>LOGIN</h3>
@@ -17,6 +19,7 @@ const HomePage = () => {
             type='email'
             className='form-control'
             placeholder='Enter Mobile Number'
+            value='(0534)-826-8732'
           />
         </div>
         <div className='form-group'>
@@ -25,6 +28,7 @@ const HomePage = () => {
             type='password'
             className='form-control mb-3'
             placeholder='Enter password'
+            value="******"
           />
         </div>
 
@@ -41,11 +45,11 @@ const HomePage = () => {
           </div>
         </div>
 
-        <button type='submit' className='homeButton btn btn-outline-light'>
+        <Link  type='submit' className='homeButton btn btn-outline-light' to="/chapters">
           Sign in
-        </button>
+        </Link>
         <p className='forgot-password text-right'>
-          Forgot <a href='#'>password?</a>
+        <a to='#' className="forgot-password "> Forgot password?</a>
           <p>Sign in using code</p>
         </p>
       </form>
