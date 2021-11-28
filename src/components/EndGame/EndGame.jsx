@@ -31,7 +31,7 @@ const EndGame = () => {
         You got a message from Venus!
       </Button>
       <Button
-        href='/home'
+        href='/chapters'
         variant='flat'
         size='lg'
         id='returnBtn'
