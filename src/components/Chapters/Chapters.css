@@ -1,0 +1,40 @@
+.bg-color {
+  background-color: #64007c;
+  color: white;
+  background-image: url('../../assets//img//space-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-359deg);
+  }
+}
+
+.alink {
+  color: #000;
+  text-decoration: none !important;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+.a-shadow:hover {
+  box-shadow: 0 0 11px white !important;
+  color: white;
+
+}
+
+.a-shadow img {
+  display: initial;
+}
