@@ -29,7 +29,7 @@ class Experiment extends React.Component {
           title='experiment'
           width='590'
           height='475'
-          src='https://edpuzzle.com/embed/media/61a21e2922a84c4280b9c679'
+          src='https://edpuzzle.com/media/61a21e2922a84c4280b9c679'
           frameborder='0'
           allowfullscreen
         ></iframe>
