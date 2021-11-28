@@ -12,7 +12,7 @@ const HomePage = () => {
       <form className='loginForm mt-5'>
         <img className='homeLogo' src={logo} alt='logo' />
 
-        <h3 className='login'>LOGIN</h3>
+        <h3 className='login-main'>LOGIN</h3>
         <div className='form-group'>
           <label className='mb-3'>Mobile Number</label>
           <input
