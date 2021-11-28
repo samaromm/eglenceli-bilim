@@ -16,7 +16,7 @@
 }
 
 .homeH1 {
-  font-size: 59px;
+  font-size: 34px;
   color: white;
   text-align: left;
   margin-left: 100px;
@@ -49,4 +49,9 @@
   margin-bottom: 15px;
   align-items: left;
   font-size: 25px;
+}
+
+.forgot-password a {
+  text-decoration: none !important;
+  color: white
 }
