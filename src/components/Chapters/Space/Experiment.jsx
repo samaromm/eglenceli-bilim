@@ -26,11 +26,12 @@ class Experiment extends React.Component {
         </div>
         <iframe
           title="experiment"
-          width='650'
-          height='350'
+          width='628'
+          height='353'
           src='https://edpuzzle.com/embed/assignments/61a2297799f67042c9330aeb/watch'
           frameborder='0'
           allowfullscreen
+          className="purpleScroll"
         ></iframe>
       </div>
     )
