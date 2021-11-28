@@ -37,7 +37,7 @@ const EndGame = () => {
         id='returnBtn'
         className='animate__animated animate__fadeIn'
       >
-        Return To Home Page
+        Return to your planets
       </Button>
     </div>
   )
