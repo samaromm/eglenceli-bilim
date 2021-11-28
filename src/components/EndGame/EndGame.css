@@ -7,15 +7,13 @@
   align-items: center;
   flex-direction: column;
 }
-
 .endGameText {
   letter-spacing: 15px;
   margin-top: 2rem;
   margin-bottom: 30px;
-  font-size: 124px;
+  font-size: 6rem;
   font-weight: 900;
 }
-
 h1 {
   background-color: rgba(256, 256, 256, 0.03);
   background-image: -webkit-linear-gradient(top, #111, #0c0c0c);
@@ -29,6 +27,10 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 15px;
   white-space: nowrap;
+}
+
+.endGamePage a {
+  color: unset !important;
 }
 
 .fire {
@@ -95,4 +97,14 @@ h1 {
       -20px -20px 40px #feec85, 22px -42px 60px #ffae34,
       -22px -58px 50px #ec760c, 0 -82px 80px #cd4606, 10px -90px 80px #973716;
   }
+}
+
+/** buttons **/
+.endGamePage .btn {
+  background-color: #6b202a;
+  color: white !important;
+  padding: 1rem 1.5rem;
+}
+.endGamePage #returnBtn {
+  display: none;
 }
