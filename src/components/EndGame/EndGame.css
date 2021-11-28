@@ -7,6 +7,7 @@
   align-items: center;
   flex-direction: column;
 }
+
 .endGameText {
   letter-spacing: 15px;
   margin-top: 2rem;
@@ -14,6 +15,7 @@
   font-size: 6rem;
   font-weight: 900;
 }
+
 h1 {
   background-color: rgba(256, 256, 256, 0.03);
   background-image: -webkit-linear-gradient(top, #111, #0c0c0c);
@@ -53,6 +55,7 @@ h1 {
       -20px -20px 40px #ffae34, 20px -40px 50px #ec760c,
       -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
   }
+
   100% {
     text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #fefcc9,
       -20px -20px 40px #feec85, 22px -42px 60px #ffae34,
@@ -66,6 +69,7 @@ h1 {
       -20px -20px 40px #ffae34, 20px -40px 50px #ec760c,
       -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
   }
+
   100% {
     text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #fefcc9,
       -20px -20px 40px #feec85, 22px -42px 60px #ffae34,
@@ -79,6 +83,7 @@ h1 {
       -20px -20px 40px #ffae34, 20px -40px 50px #ec760c,
       -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
   }
+
   100% {
     text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #fefcc9,
       -20px -20px 40px #feec85, 22px -42px 60px #ffae34,
@@ -92,6 +97,7 @@ h1 {
       -20px -20px 40px #ffae34, 20px -40px 50px #ec760c,
       -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
   }
+
   100% {
     text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #fefcc9,
       -20px -20px 40px #feec85, 22px -42px 60px #ffae34,
@@ -105,6 +111,16 @@ h1 {
   color: white !important;
   padding: 1rem 1.5rem;
 }
+
 .endGamePage #returnBtn {
   display: none;
+}
+
+.aFire:hover {
+  color: #ec760c !important;
+
+}
+
+.aFire {
+  text-decoration: none;
 }
