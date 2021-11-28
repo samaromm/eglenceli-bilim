@@ -1,5 +1,5 @@
 import React from 'react'
-import Forest from '../components/Chapters/Forest/Forest'
+import Forest from '../components/Chapters/Space/Space'
 
 const ForestChapter = () => {
   return (

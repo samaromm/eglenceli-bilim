@@ -1,0 +1,86 @@
+.planet-1 {
+  background-image: url('../../../assets/img/game-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.planet-1 .color-overlay {
+  height: inherit;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+}
+.planet-1 .char-overlay {
+  background-color: rgba(0, 0, 0, 0.15);
+  z-index: 2;
+}
+.planet-1 .char {
+  position: absolute;
+  right: 15rem;
+  bottom: 0;
+  width: 14rem;
+  z-index: 1;
+}
+.planet-1 .btn {
+  display: none;
+  z-index: 3;
+  position: absolute;
+  bottom: 8rem;
+  right: 30rem;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: white;
+  font-family: fantasy;
+  letter-spacing: 4px;
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+.planet-1 .btn:first-of-type {
+  display: block;
+}
+
+/** experiment page **/
+.experiment .char {
+  top: 1rem;
+  width: 9rem;
+  right: 0;
+  transform: rotate(-20deg);
+}
+.experiment iframe {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 5.5rem;
+  margin: auto;
+  box-shadow: 0px 13px 53px 20px rgb(138 43 226 / 93%);
+  border-radius: 4px;
+  z-index: 2;
+}
+.experiment .loading {
+  position: absolute;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+}
+.experiment .loading img {
+  width: 19rem;
+}
+.experiment .loading p{
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
