@@ -48,7 +48,6 @@ You can find a demo [Here](https://samaromm.github.io/eglenceli-bilim/)
 - illustrator
 - git 
 - github
-- addind
 - 
 
 ## Getting Started 
