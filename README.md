@@ -1,4 +1,4 @@
-# EĞLENCELİ BİLİM, For Impacthub Innovation Hackathon 2021 
+# Impacthub Innovation Hackathon 2021 
 
 Science is everywhere and life with science is fun!
 Working with children, for children and around children is one of the most fun, difficult, entertaining and most rewarding things in the world.
