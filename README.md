@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# EĞLENCELİ BİLİM, For Impacthub Innovation Hackathon 2021 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Science is everywhere and life with science is fun!
+Working with children, for children and around children is one of the most fun, difficult, entertaining and most rewarding things in the world.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Main Idea
 
-### `yarn start`
+We think that a science education will protect all children's well-being for today and for the future. 
+When we say "science", we imagine a world full of children who feel excitement, who examine their surroundings with curiosity, and desire to discover the hidden world of science in life. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+In general, concepts of hands-on and minds-on science are not different things. Because at schools, teachers are the guiders for these programs, but for "Science at Home" we can only reach the children via our videos. So this inhibits students being minds-on and being their own discoverers from an early age.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Our Aims
 
-### `yarn build`
+- Dive deeper into the importance of hands on learning - or simply active learning - for children.
+- Allow children to explore by themselves what they are capable of on the website, without the guidance, assitance or even presence of someone around them.
+- Allow children to play their part in the learning process - rather than just sitting and listening they engage and actively participate with the teacher (or in our case the website). 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## What eglencili bilim needed for their website
+Eglencili bilim is a website that provides "science at home" for children. They wanted to make their website more active, attractive, and combine science lessons with fun games that will make children enjoy the learning process.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## How we met their requirements 
+In our project, we chose to have a character that the children can relate to. This character welcomes the student to the level they are in - (the planet in our case) and guides them throughout the level. Once the children complete each level, they have the option to play a game - as a reward. This reward allows the children to feel a sense of accomplishment for what they have achieved and look forward to the coming levels (planets) and the rewards that they can get it in each level. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Introductry Video
+You can watch this short video to learn more about our project [Here](https://www.loom.com/share/56263684f1f14c08add638d8ad64e52c)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Live link
+You can find a demo [Here](https://samaromm.github.io/eglenceli-bilim/)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## What We Used
+- React framework
+- JavaScript
+- CSS
+- HTML
+- Bootstrap
+- Photoshop
+- illustrator
+- git 
+- github
+- addind
+- 
 
-### Code Splitting
+## Getting Started 
+- git clone git@github.com:InnovationHackathon-istanbul-2021/eglencili-bilim-challenge.git
+- cd eglencili-bilim-challenge
+- npm install
+- npm start
+(if facing any error in running the app please delete package.json then run npm install again)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
